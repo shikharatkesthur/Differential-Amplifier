@@ -94,5 +94,9 @@ Replace the resistor with a current source, Iss=0.875mV
 
 ![Screenshot 2025-03-06 234809](https://github.com/user-attachments/assets/676078bb-d3ad-433d-af6d-6c12804c6697)
 
+Width = 2.485um;<br> 
+Length = 180nm;<br> 
+
+We obtained the required Iss value of 0.875mA for the above mentioned W/L values.
 
 
