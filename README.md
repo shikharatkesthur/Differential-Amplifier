@@ -63,7 +63,14 @@ Width:2.485um<br>
 
 ![Screenshot 2025-03-06 232826](https://github.com/user-attachments/assets/dfd01936-f252-4321-ba8c-c2819ebff7d6)
 
-The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform
+The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform.
+
+![Screenshot 2025-03-06 233212](https://github.com/user-attachments/assets/bd0f8a56-ca2e-4652-ac05-fbd61e764e42)
+
+Voltage gain, 
+     AV = Voutp-p/Vinp-p<br>
+     AV=(1.87-1.54)/(1.65-1.55)<br>
+     AV=3.3<br>
 
 
 
