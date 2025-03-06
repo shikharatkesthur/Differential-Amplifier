@@ -27,18 +27,26 @@ Vp=0.6V<br>
 
 ## Procedure:
 
-DC Analysis :To perform the DC analsyis select the Configure Analysis Option in toolbar and select 'DC op pnt'. Find the Id by adjusting the length and width of the CMOSN.<br>
-Transient Analysis: To perform the Transient analsyis select the Configure Analysis Option in toolbar and select 'Transient' set the operating point such as Stop time 5ms find the Gain by finding out the Vin and Vout from the waveform.<br>
-AC Analysis: To perform the AC analsyis we must select the Configure Analysis Option in toolbar and select AC analysis select the operating points like Type of sweep as decade, Number of points per decade as 20, Start and Stop Frequency from 0.1 to 1T Hz.<br>
+1.Open LTspice and import the tsmc018.lib file before building up the circuit.<br>
+2.Make sure that the file must be in the same folder as the experiment file<br>
+3.Use the (.t) option in the toolbar and type .lib tsmc018.lib to import the library of that file<br>
+4.Select the Rd and Rs with accurate Values and Select NMOS4<br>
+5.Rename the MOSFET's as CMOSN<br>
+6.DC Analysis :To perform the DC analsyis select the Configure Analysis Option in toolbar and select 'DC op pnt'. Find the Id by adjusting the length and width of the CMOSN.<br>
+7.Transient Analysis: To perform the Transient analsyis select the Configure Analysis Option in toolbar and select 'Transient' set the operating point such as Stop time 5ms find the Gain by finding out the Vin and Vout from the waveform.<br>
+8.AC Analysis: To perform the AC analsyis we must select the Configure Analysis Option in toolbar and select AC analysis select the operating points like Type of sweep as decade, Number of points per decade as 20, Start and Stop Frequency from 0.1 to 1T Hz.<br>
 
 ## Design 
 Iss = P/Vdd = 2.8mW/3.2V = 0.875mA<br>
 Iss = 0.875mA<br>
-ID1 = ID2 = Iss/2 = 0.875m/2 =0.4375mA<br> 
+
+ID1 = ID2 = Iss/2 = 0.875m/2 =0.4375mA<br>
 ID = 0.4375mA <br>
+
 RD = (VDD - Vocm)/ID<br> 
 RD = (3.2-1.7)/0.4375m = 3.428kohm<br> 
 RD = 3.428kohm<br>
+
 Rss = Vp/Iss = 0.6/0.875mA = 685ohm<br>
 Rss = 685ohm<br>
 
