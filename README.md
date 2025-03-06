@@ -27,19 +27,18 @@ Vp=0.6V<br>
 
 
 ## Design 
-Iss = P/Vdd = 2.8mW/3.2V = 0.875mA 
-Iss = 0.875mA 
-ID1 = ID2 = Iss/2 = 0.875m/2 =0.4375mA 
-ID = 0.4375mA 
-RD = (VDD - Vocm)/ID 
-RD = (3.2-1.7)/0.4375m = 3.428kohm 
-RD = 3.428kohm 
-Rss = Vp/Iss = 0.6/0.875mA = 685ohm 
-Rss = 685ohm 
+Iss = P/Vdd = 2.8mW/3.2V = 0.875mA<br>
+Iss = 0.875mA<br>
+ID1 = ID2 = Iss/2 = 0.875m/2 =0.4375mA<br> 
+ID = 0.4375mA <br>
+RD = (VDD - Vocm)/ID<br> 
+RD = (3.2-1.7)/0.4375m = 3.428kohm<br> 
+RD = 3.428kohm<br>
+Rss = Vp/Iss = 0.6/0.875mA = 685ohm<br>
+Rss = 685ohm<br>
 
 ## Circuit 1 
-![image](https://github.com/user-attachments/assets/2a372cf3-ff81-49f4-bfb3
-ead053443023) 
+![Screenshot 2025-03-06 225256](https://github.com/user-attachments/assets/63cf6c3f-db15-4f98-a229-b743036812e1)
 
 ## DC Analysis 
 DC analysis is done to ensure whether the mosfet operates in saturation region and to 
