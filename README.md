@@ -43,17 +43,76 @@ Rss = Vp/Iss = 0.6/0.875mA = 685ohm<br>
 Rss = 685ohm<br>
 
 ## Circuit 1 
-![Screenshot 2025-03-06 225256](https://github.com/user-attachments/assets/63cf6c3f-db15-4f98-a229-b743036812e1)
+
+![image](https://github.com/user-attachments/assets/df58dab7-d84a-431f-a8d5-20c80acad852)
+
+## DC Analysis
+After setting the voltage source as specified we must find the appropriate W and L values for CMOSN
+
+![image](https://github.com/user-attachments/assets/8e196874-687b-43c2-a1ab-7506b6837f9a)
+
+![image](https://github.com/user-attachments/assets/f91fc071-6409-4684-89d3-c4d7ed889d00)
+
+Mosfet M1 and M2:<br> 
+
+Length:180nm<br> 
+Width:2.485um<br> 
+Id=0.4375mA<br>
+Iss=0.875mA<br>
+
+## Transient Analysis
+For M1 and M2:<br>
+Set DC Offset as 1.6V and Amplitude as 50m and Frequency as 1K Hz<br>
+
+![image](https://github.com/user-attachments/assets/0b174dc1-b294-46d6-9b6a-cb65f571b98f)
+
+![image](https://github.com/user-attachments/assets/c29ba443-fa52-4cb3-9fc4-c1644e19a115)
+
+The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform.
+
+![image](https://github.com/user-attachments/assets/7ce7a76a-b716-48b4-a443-966a8220a0e4)
+
+Voltage gain,<br> 
+AV = Voutp-p/Vinp-p<br>
+AV=(1.76-1.63)/(1.65-1.55)<br>
+AV=1.4<br>
+
+## AC Analysis
+
+To perform AC analysis we must set the operating point first they are shown below
+
+Type of sweep as decade<br>
+Number of points per decade as 20<br>
+Start Frequency as 0.1 Hz<br>
+Stop Frequency as 1T Hz<br>
+
+![image](https://github.com/user-attachments/assets/f122c9eb-364f-4c54-b0c9-f85c70f20005)
+
+Gain in dB= 20log(AV)<br>
+=20log(1.4)<br>
+=2.922dB<br>
+
+## Circuit 2
+
 
 ## DC Analysis 
-DC analysis is done to ensure whether the mosfet operates in saturation region and to 
-calculate the DC operationg point of the transistor. This prevents signal distortion, which 
-helps in the determination of the biasing resistors.This helps in getting a correct operating 
-point despite the fluctuation in the other parameters. 
+DC analysis is done to ensure whether the mosfet operates in saturation region and to calculate the DC operationg point of the transistor. This prevents signal distortion, which helps in the determination of the biasing resistors.This helps in getting a correct operating point despite the fluctuation in the other parameters. 
+
+
 
 ![Screenshot 2025-03-06 232248](https://github.com/user-attachments/assets/4384872a-e237-474d-856e-e404c09b15ce)
 
 ![Screenshot 2025-03-06 232445](https://github.com/user-attachments/assets/1579cd39-4432-4849-aaee-8d8b32b7985a)
+
+The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform.
+
+![image](https://github.com/user-attachments/assets/7ce7a76a-b716-48b4-a443-966a8220a0e4)
+
+Voltage gain,<br> 
+AV = Voutp-p/Vinp-p<br>
+AV=(1.76-1.63)/(1.65-1.55)<br>
+AV=1.4<br>
+
 
 
 Mosfet M1 and M2:<br> 
