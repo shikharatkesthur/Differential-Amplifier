@@ -81,3 +81,18 @@ Gain in dB= 20log(AV)<br>
 =20log(3.3)<br>
 =10.37dB<br>
 
+## Circuit 2:
+
+Replace the resistor with a current source, Iss=0.875mV
+
+![Screenshot 2025-03-06 234442](https://github.com/user-attachments/assets/4b7413ea-a95b-4150-b1cc-586f21b93628)
+
+## DC Analysis:
+
+![Screenshot 2025-03-06 234710](https://github.com/user-attachments/assets/230eb9bf-3e75-4b8a-85fa-c00f2ebc284a)
+
+
+![Screenshot 2025-03-06 234809](https://github.com/user-attachments/assets/676078bb-d3ad-433d-af6d-6c12804c6697)
+
+
+
