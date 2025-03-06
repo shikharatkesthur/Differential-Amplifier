@@ -57,7 +57,13 @@ Length:180nm<br>
 
 Width:2.485um<br> 
 
-## Transient Analysis
+## Transient Analysis:
+
+![Screenshot 2025-03-06 232710](https://github.com/user-attachments/assets/972d4ff3-3881-4fb4-bbc7-c5bc0a8214d1)
+
+![Screenshot 2025-03-06 232826](https://github.com/user-attachments/assets/dfd01936-f252-4321-ba8c-c2819ebff7d6)
+
+The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform
 
 
 
