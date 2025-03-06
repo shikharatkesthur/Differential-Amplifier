@@ -26,3 +26,5 @@ Vp=0.6V<br>
 5. V2 and V3: These are the input voltage sources, providing the signals that the amplifier will take the difference of.
 
 
+
+
