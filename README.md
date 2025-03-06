@@ -89,13 +89,15 @@ Replace the resistor with a current source, Iss=0.875mV
 
 ## DC Analysis:
 
+To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis.
+
 ![Screenshot 2025-03-06 234710](https://github.com/user-attachments/assets/230eb9bf-3e75-4b8a-85fa-c00f2ebc284a)
 
 
 ![Screenshot 2025-03-06 234809](https://github.com/user-attachments/assets/676078bb-d3ad-433d-af6d-6c12804c6697)
 
-Width = 2.485um;<br> 
-Length = 180nm;<br> 
+Width = 2.485um<br> 
+Length = 180nm<br> 
 
 We obtained the required Iss value of 0.875mA for the above mentioned W/L values.
 
