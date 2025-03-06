@@ -94,32 +94,25 @@ Gain in dB= 20log(AV)<br>
 
 ## Circuit 2
 
+![image](https://github.com/user-attachments/assets/facc411e-81a5-4b29-9e78-1a0f226f541a)
+
 
 ## DC Analysis 
 DC analysis is done to ensure whether the mosfet operates in saturation region and to calculate the DC operationg point of the transistor. This prevents signal distortion, which helps in the determination of the biasing resistors.This helps in getting a correct operating point despite the fluctuation in the other parameters. 
 
+![image](https://github.com/user-attachments/assets/dad7954b-8500-4647-b908-90415a186668)
 
 
-![Screenshot 2025-03-06 232248](https://github.com/user-attachments/assets/4384872a-e237-474d-856e-e404c09b15ce)
-
-![Screenshot 2025-03-06 232445](https://github.com/user-attachments/assets/1579cd39-4432-4849-aaee-8d8b32b7985a)
-
-The above two waveforms are the Vocm and Vicm. The green waveform represents the output waveform and the blue waveform represents the input waveform.
-
-![image](https://github.com/user-attachments/assets/7ce7a76a-b716-48b4-a443-966a8220a0e4)
-
-Voltage gain,<br> 
-AV = Voutp-p/Vinp-p<br>
-AV=(1.76-1.63)/(1.65-1.55)<br>
-AV=1.4<br>
-
-
+![image](https://github.com/user-attachments/assets/57d2f4e1-bb62-430e-97f9-5ce330d91066)
 
 Mosfet M1 and M2:<br> 
 
 Length:180nm<br> 
-
 Width:2.485um<br> 
+Id=0.4375mA<br>
+Iss=0.875mA<br>
+
+
 
 ## Transient Analysis:
 
@@ -131,7 +124,7 @@ The above two waveforms are the Vocm and Vicm. The green waveform represents the
 
 ![Screenshot 2025-03-06 233212](https://github.com/user-attachments/assets/bd0f8a56-ca2e-4652-ac05-fbd61e764e42)
 
-Voltage gain, 
+Voltage gain,<br>
      AV = Voutp-p/Vinp-p<br>
      AV=(1.87-1.54)/(1.65-1.55)<br>
      AV=3.3<br>
@@ -144,27 +137,5 @@ Voltage gain,
 Gain in dB= 20log(AV)<br>
 =20log(3.3)<br>
 =10.37dB<br>
-
-## Circuit 2:
-
-Replace the resistor with a current source, Iss=0.875mV
-
-![Screenshot 2025-03-06 234442](https://github.com/user-attachments/assets/4b7413ea-a95b-4150-b1cc-586f21b93628)
-
-## DC Analysis:
-
-To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis.
-
-![Screenshot 2025-03-06 234710](https://github.com/user-attachments/assets/230eb9bf-3e75-4b8a-85fa-c00f2ebc284a)
-
-
-![Screenshot 2025-03-06 234809](https://github.com/user-attachments/assets/676078bb-d3ad-433d-af6d-6c12804c6697)
-
-Width = 2.485um<br> 
-Length = 180nm<br> 
-
-We obtained the required Iss value of 0.875mA for the above mentioned W/L values.
-
-## hi 
 
 
