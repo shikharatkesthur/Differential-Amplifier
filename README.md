@@ -27,9 +27,9 @@ Vp=0.6V<br>
 
 ## Procedure:
 
-DC Analysis :To perform the DC analsyis select the Configure Analysis Option in toolbar and select 'DC op pnt'. Find the Id by adjusting the length and width of the CMOSN.
-Transient Analysis: To perform the Transient analsyis select the Configure Analysis Option in toolbar and select 'Transient' set the operating point such as Stop time 5ms find the Gain by finding out the Vin and Vout from the waveform.
-AC Analysis: To perform the AC analsyis we must select the Configure Analysis Option in toolbar and select AC analysis select the operating points like Type of sweep as decade, Number of points per decade as 20, Start and Stop Frequency from 0.1 to 1T Hz.
+DC Analysis :To perform the DC analsyis select the Configure Analysis Option in toolbar and select 'DC op pnt'. Find the Id by adjusting the length and width of the CMOSN.<br>
+Transient Analysis: To perform the Transient analsyis select the Configure Analysis Option in toolbar and select 'Transient' set the operating point such as Stop time 5ms find the Gain by finding out the Vin and Vout from the waveform.<br>
+AC Analysis: To perform the AC analsyis we must select the Configure Analysis Option in toolbar and select AC analysis select the operating points like Type of sweep as decade, Number of points per decade as 20, Start and Stop Frequency from 0.1 to 1T Hz.<br>
 
 ## Design 
 Iss = P/Vdd = 2.8mW/3.2V = 0.875mA<br>
