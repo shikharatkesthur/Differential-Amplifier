@@ -73,5 +73,11 @@ Voltage gain,
      AV=3.3<br>
 
 
+## AC Analysis:
 
+![Screenshot 2025-03-06 233536](https://github.com/user-attachments/assets/3bb0c18e-2808-46ee-a440-a044eb93b214)
+
+Gain in dB= 20log(AV)<br>
+=20log(3.3)<br>
+=10.37dB<br>
 
