@@ -45,12 +45,16 @@ DC analysis is done to ensure whether the mosfet operates in saturation region a
 calculate the DC operationg point of the transistor. This prevents signal distortion, which 
 helps in the determination of the biasing resistors.This helps in getting a correct operating 
 point despite the fluctuation in the other parameters. 
-![image](https://github.com/user-attachments/assets/5a42d957-70a2-4e7b-bbb2
-30347450785b) 
-![image](https://github.com/user-attachments/assets/3335a21c-5fb4-421c-a8b9
-8ef815a56883) 
+
+![Screenshot 2025-03-06 232248](https://github.com/user-attachments/assets/4384872a-e237-474d-856e-e404c09b15ce)
+
+![Screenshot 2025-03-06 232445](https://github.com/user-attachments/assets/1579cd39-4432-4849-aaee-8d8b32b7985a)
+
+
 Mosfet M1 and M2:<br> 
+
 Length:180nm<br> 
+
 Width:2.485um<br> 
 
 ## Transient Analysis
