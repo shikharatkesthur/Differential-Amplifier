@@ -190,11 +190,20 @@ Gain = (Vout)/(Vin)<br>
 
 ## AC Analysis
 
-![image](https://github.com/user-attachments/assets/04a14ae9-b803-4553-abe1-8d18317eaaae
+![image](https://github.com/user-attachments/assets/fb72d127-8c08-4768-9d0f-598956972196)
+
 
 ## Inference
 
-Differential amplifiers are preferred because they offer *high stability, precision, and noise rejection. They ensure **consistent gain* and work well even with power or temperature changes. Their ability to reject *common-mode noise* makes them essential in *op-amps and signal processing* applications.
+Differential amplifiers are preferred because they offer high stability, precision, and noise rejection. They ensure consistent gain and work well even with power or temperature changes. Their ability to reject common-mode noise makes them essential in op-amps and signal processing applications.
+
+There are three types of configurations were implemented: resistor , current source , and an NMOS . All the implements work on different ways that results into the cahnge in Voltage gain and stabillity of a mosfet.
+
+Circuit 1: When resistor is connected it provides low CMRR,deduce gain voltage,but high bandwidth and also provide negative feedback
+
+Circuit 2:But in the case of current source connection it is reciprocal of resistor connection because it has high gain volatge, high CMRR,but slight reduce in the bandwidth compared to the resistor connection.
+
+Circuit 3: An NMOS transistor in saturation has a much higher output resistance compared to a resistor or simple current source, improving gain
 
 
 
