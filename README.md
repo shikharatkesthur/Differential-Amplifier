@@ -50,7 +50,8 @@ RD = 3.428kohm<br>
 Rss = Vp/Iss = 0.6/0.875mA = 685ohm<br>
 Rss = 685ohm<br>
 
-## Circuit 1 
+# Circuit 1
+Resistor Connected 
 
 ![image](https://github.com/user-attachments/assets/df58dab7-d84a-431f-a8d5-20c80acad852)
 
@@ -100,7 +101,8 @@ Gain in dB= 20log(AV)<br>
 =20log(1.4)<br>
 =2.922dB<br>
 
-## Circuit 2
+# Circuit 2 
+Replace the resistor with current source,Iss = 0.875mA.
 
 ![image](https://github.com/user-attachments/assets/facc411e-81a5-4b29-9e78-1a0f226f541a)
 
@@ -123,6 +125,11 @@ Iss=0.875mA<br>
 
 
 ## Transient Analysis:
+For M1 :<br>
+Set DC Offset as 1.6V and Amplitude as 50m and Frequency as 1K Hz<br>
+
+For M2: <br>
+Set DC Offset as 1.6V and Amplitude as -50m and Frequency as 1K Hz<br>
 
 ![Screenshot 2025-03-06 232710](https://github.com/user-attachments/assets/972d4ff3-3881-4fb4-bbc7-c5bc0a8214d1)
 
@@ -145,5 +152,56 @@ Voltage gain,<br>
 Gain in dB= 20log(AV)<br>
 =20log(3.3)<br>
 =10.37dB<br>
+
+# Circuit 3
+Replace the current source with Mosfet M3.
+
+![image](https://github.com/user-attachments/assets/e50b05d9-8ae6-4e3e-b34f-299184cc510b)
+
+## DC Analysis:
+DC analysis is done to ensure whether the mosfet operates in saturation region and to calculate the DC operationg point of the transistor. This prevents signal distortion, which helps in the determination of the biasing resistors.This helps in getting a correct operating point despite the fluctuation in the other parameters. 
+
+![image](https://github.com/user-attachments/assets/925bbd97-4c65-471e-8252-7a978721d57b)
+
+Mosfet M1 and M2:<br> 
+
+Length:180nm<br> 
+Width:2.485um<br> 
+
+Mosfet M3:<br> 
+
+Length:180nm<br> 
+Width:2.53um<br> 
+
+## Transient Analysis:
+To perform AC analysis we must set the operating point first they are shown below
+
+Type of sweep as decade<br>
+Number of points per decade as 20<br>
+Start Frequency as 0.1 Hz<br>
+Stop Frequency as 1T Hz<br>
+To perform Transient Analysis we must set the stop time for 5ms and the appropriate waveform is given by,
+
+![image](https://github.com/user-attachments/assets/63bfe10e-dfe2-47ac-9c36-39ab9674010d)
+
+Gain = (Vout)/(Vin)<br>
+= (0.013875)/(0.04864)<br>
+= 0.285259<br>
+
+## AC Analysis
+
+![image](https://github.com/user-attachments/assets/04a14ae9-b803-4553-abe1-8d18317eaaae
+
+## Inference
+
+Differential amplifiers are preferred because they offer *high stability, precision, and noise rejection. They ensure **consistent gain* and work well even with power or temperature changes. Their ability to reject *common-mode noise* makes them essential in *op-amps and signal processing* applications.
+
+
+
+
+
+
+
+
 
 
